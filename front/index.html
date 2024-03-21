@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>Proyecto de M2</h1>
 
-    <script src="./scripts/tempData.js"></script>
-    <script src="./scripts/index.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <title>Proyecto de M2</title>
+</head>
+
+<body>
+  <header>
+    <nav id="nav">
+      <h1>Proyecto M2</h1>
+      <ul class="list">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./pages/about.html">About</a></li>
+        <li><a href="./pages/formulario.html">Formulario</a></li>
+        <li><a href="./pages/historia.html">Historia del Cine</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1 class="pelicula">Películas añadidas</h1>
+    </section>
+    <section id="films"></section>
+  </main>
+
+  <script src="./browser/bundle.js"></script>
+</body>
+
 </html>
